@@ -45,4 +45,9 @@ function Lk(k, x_arr, x) {
     return res;
 }
 
-export { Lagrange };
+
+function test() {
+    console.log(Lagrange([1,2,3],[2,2,2], 1));
+}
+
+test();

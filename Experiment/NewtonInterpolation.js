@@ -6,7 +6,6 @@
  * ...
  * @param x_append
  * @param y_append
- * @constructor
  */
 function DifferenceEntropy(diffTable, x_append, y_append) {
     if (diffTable.length == 0) { // 差熵表为空，从头计算
@@ -69,3 +68,5 @@ export function TestDE() {
 
 
 export { NewTonInterpolation, DifferenceEntropy }
+
+TestDE();

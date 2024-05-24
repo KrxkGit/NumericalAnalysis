@@ -30,7 +30,7 @@ function NewtonMethod(x0, epsilon, f, df, M) {
 
 function test() {
     let f = function (x) {
-        return x ** 2 - 5;
+        return x ** 2 - 95;
     }
     let df = function (x) {
         return 2 * x;

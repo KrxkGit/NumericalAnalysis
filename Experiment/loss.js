@@ -10,7 +10,7 @@ function f2(x) {
     return sqrtX / (sqrtX + sqrtX1);
 }
 
-export function TestLoss() {
+function TestLoss() {
     console.log('------Test Loss Start------')
     const bound = 10 ** 14;
     for (let x = 1; x <= bound; x *= 10 ) {
@@ -19,3 +19,5 @@ export function TestLoss() {
     }
     console.log('------Test Loss End------')
 }
+
+TestLoss();
